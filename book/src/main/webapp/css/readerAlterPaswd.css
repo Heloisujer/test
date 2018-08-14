@@ -1,0 +1,64 @@
+.data {
+	width: 100%;
+	height: 45px;
+	line-height: 35px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.data .label1 {
+	font-size: 14px;
+	float: left;
+	margin-left: 20%;
+	color: #515567;
+	font-weight: bold;
+}
+
+.data input {
+	width: 350px;
+	height: 20px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-right: 35%;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 6px 12px;
+}
+
+.labletext {
+	position: absolute;
+	top: 0px;
+	right: 290px;
+	z-index: 100;
+}
+
+.labletext1 {
+	position: absolute;
+	top: 0px;
+	right: 290px;
+	z-index: 100;
+}
+
+.labletext2 {
+	position: absolute;
+	top: 0px;
+	right: 275px;
+	z-index: 100;
+}
+
+.add_btn {
+	width: 100px;
+	height: 35px;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #419EDC;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px 30px 10px 490px;
+}
+
+.add_btn:hover {
+	background-color: #C9E5F5;
+	cursor: pointer;
+}
